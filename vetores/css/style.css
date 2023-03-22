@@ -1,0 +1,42 @@
+*{
+    margin-top: 3px;
+    padding: 1%;
+    border-radius: 6%;
+    background-color: #C9F4AA;
+    font-family: 'Alkatra', cursive;
+}
+
+article{
+    align-items: center;
+}
+
+.botao1{
+    color: #fff;
+    background-color: #000;
+}
+
+.botao2{
+    color: #fff;
+    background-color: #000;
+    
+}
+
+.caixa1{
+    background-color: #fff;
+}
+
+
+header{
+    color: #3C6255;
+    font-size: 150%;
+}
+
+footer{
+    color: #3C6255;
+}
+
+
+
+
+
+

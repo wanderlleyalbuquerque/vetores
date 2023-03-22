@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade-01</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<head>
+    Atividade de Vetor
+</head>
+
+    <article class="bla h">
+        <input id="input" class="caixa1" type="text">
+         
+        <button class="botao1" onclick="a()">Adicionar</button>
+        <button class="botao2" onclick="b()">Ordenar</button>
+        </article>
+   
+        <script>
+           var input = document.getElementById('input')
+           var objetos = ['Cadeira', 'Impressora', 'Garfo']
+           
+           console.log()
+           
+           function a(){
+                var inputValor = document.getElementById('input').value
+                if(input.value === '' || input.value === null){
+                   alert('Digite um valor válido')
+                }
+                else if(objetos.indexOf(inputValor) === -1){
+                   objetos.push(inputValor)
+                   console.log(objetos)
+                } else {
+                   console.log('O objeto já foi adicionado')
+                }
+            }
+   
+            function b(){
+               objetos.sort()
+               console.log(objetos)
+            }
+        </script>
+
+        <footer>
+            Aluno:José Wanderley
+        </footer>
+
+</body>
+</html>
+
